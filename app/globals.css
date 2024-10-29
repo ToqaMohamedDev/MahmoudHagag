@@ -134,11 +134,11 @@
 }
 
 .animate-once {
-  animation: slideIn 2s ease-in-out forwards;
+  animation: slideIn 1.2s ease-in-out forwards;
 }
 
 .animate-image-once {
-  animation: slideInImage 2s ease-in-out forwards;
+  animation: slideInImage 1.2s ease-in-out forwards;
 }
 
 @keyframes slideUp {

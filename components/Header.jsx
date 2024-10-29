@@ -1,9 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
-
 import ThemeToggler from "./ThemeToggler";
 import Logo from "./Logo";
-import Nav from "./Nav";
 import MobileNav from "./MobileNav";
 import { usePathname } from "next/navigation";
 
@@ -30,13 +28,9 @@ const Header = () => {
         <div className="flex  justify-between items-center">
           <Logo />
           <div className="flex items-center gap-x-6">
-          <Nav
-              containerstyles="hidden xl:flex gap-x-8 items-center"
-              linkStyle="relative hover:text-primary transition-all"
-              underlinkStyles="absolute left-0 top-full h-[2px] bg-primary w-full"
-            />
+        
             <ThemeToggler />
-            <div className="xl:hidden">
+            <div className="">
               <MobileNav />
             </div>
           </div>

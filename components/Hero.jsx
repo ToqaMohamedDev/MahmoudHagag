@@ -1,10 +1,5 @@
 import React from 'react'
-import {
-  RiBriefcase4Fill,
-  RiTiktokFill,
-  RiTodoFill,
-  RiArrowDownSLine,
-} from "react-icons/ri";
+
 import { Download, Send } from "lucide-react";
 
 import Social from "./socials";
