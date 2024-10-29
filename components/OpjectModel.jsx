@@ -45,19 +45,20 @@ const OpjectModel = forwardRef((props, ref) => {
   
     useGSAP(()=>{
       gsap.set(camera.position,{
-        x:-3,
-        y:-0.4,
+        x:3,
+        y:1.9,
         z:6.00,
       });
       gsap.set(scene.rotation,{
-      x:.3,
-      y:2.2,
+      x:.4,
+      y:-1.1,
+      z:1
       });
 
       tl.to(
       camera.position,
       {
-        x:1.45,
+        x:-2.45,
         z:5,
         scrollTrigger:{
           trigger: ".second-section",
@@ -71,7 +72,7 @@ const OpjectModel = forwardRef((props, ref) => {
       scene.rotation,
       {
         x:0.10,
-        y:4.10,
+        y:-3.70,
         scrollTrigger:{
           trigger: ".second-section",
           start: "top bottom",
@@ -83,9 +84,9 @@ const OpjectModel = forwardRef((props, ref) => {
     ).to(
       camera.position,
       {
-        x:-2,
-        y:0.10,
-        z:4.5,
+        x:2,
+        y:1.50,
+        z:5.5,
         scrollTrigger:{
           trigger: ".third-section",
           start: "top bottom",
@@ -97,8 +98,9 @@ const OpjectModel = forwardRef((props, ref) => {
     ).to(
       scene.rotation,
       {
-        x:.3,
-        y:-4.2,
+        x:.5,
+        y:-1.0,
+        z:1,
         scrollTrigger:{
           trigger: ".third-section",
           start: "top bottom",

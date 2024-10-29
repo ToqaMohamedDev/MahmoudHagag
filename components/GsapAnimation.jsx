@@ -15,7 +15,7 @@ export default function GsapAnimation() {
       <div className="container">
 
         {/* 1 - القسم الأول بدون تأثير الـ sticky */}
-        <div className="first-section absolute h-screen top-0 px-5 flex items-center">
+        <div className="first-section absolute h-screen top-0 right-5 px-5 flex items-center">
           <div className="max-w-[400px] gap-y-5">
             <h1 className="maintext text-primary text-right mb-5">تطبيقنا</h1>
             <p className="subtitle text-right">
@@ -33,7 +33,7 @@ export default function GsapAnimation() {
         </div>
 
         {/* 2 - القسم الثاني حيث يبدأ تأثير الـ sticky */}
-        <div className="second-section h-screen flex items-center justify-end">
+        <div className="second-section h-screen flex items-center justify-start">
           <div className="max-w-[400px] gap-y-5">
             <h1 className="maintext text-primary text-right mb-5">اليوتيوب</h1>
             <p className="subtitle text-right">
@@ -54,11 +54,11 @@ export default function GsapAnimation() {
         </div>
 
         {/* 3 */}
-        <div className="third-section h-screen flex items-center">
+        <div className="third-section h-screen flex items-center justify-end">
           <div className="max-w-[400px] gap-y-5">
             <h1 className="maintext text-primary text-right mb-5">الفيس بوك</h1>
             <p className="subtitle text-right">
-              تطبيق مستر محمود حجاج علي جوجل بلاي هتلاقي شرح جميع المنهج و المرجعات النهائية مع مذكرة خاصة تشمل جميع المنهج والاسئلة المتوقعه في الامتحانات
+              هتلاقي كل جديد علي صفحتنا علي الفيس بوك وتتابع مواعيد نزول المحاضرات والمرجعات النهائيه واهم الاسئله تابعنا ليصلك كل جديد
             </p>
             <div className="flex justify-end">
               <Link href="https://www.facebook.com/mahmoudhaggagphysics/">
