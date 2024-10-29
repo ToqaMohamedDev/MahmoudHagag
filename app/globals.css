@@ -66,8 +66,12 @@
   @apply text-6xl xl:text-[72px] xl:leading-[80px] tracking-[-2px] font-bold;
 }
 
+.maintext {
+  @apply text-5xl xl:text-[65px] xl:leading-[80px] tracking-[-2px] font-bold;
+}
+
 .subtitle {
-  @apply text-muted-foreground text-lg mb-8 font-light;
+  @apply text-muted-foreground md:text-lg text-sm mb-8 font-light;
 }
 
 .badge {

@@ -10,22 +10,22 @@ import { useGSAP } from "@gsap/react";
 const data = [
   {
     image: "/flutter.svg",
-    title: 'Flutter Firebase',
+    title: 'شرح المنهج',
     subTitle: 'عمل تطبيقات مبينيه علي فلاتر مع الفاير بيز ',
   },
   {
     image: "/node-js.svg",
-    title: 'Flutter Nodejs',
+    title: 'حل امتحانات',
     subTitle: ' nodejs عمل تطبيقات مبينيه علي فلاتر مع كاستم سيرفر',
   },
   {
     image: "/androidios.png",
-    title: 'Android Ios',
+    title: 'مرجعات نهائية',
     subTitle: 'عمل تطبيقات اندرويد و اي او اس بواسطة دارت وفلاتر ',
   },
   {
     image: "/androidios.png",
-    title: 'Android Ios',
+    title: 'متابعه مستمره',
     subTitle: 'عمل تطبيقات اندرويد و اي او اس بواسطة دارت وفلاتر ',
   },
 ];
@@ -66,8 +66,8 @@ function ScrollSection() {
         <div ref={sectionRef} className="scroll-section-inner flex">
           {data.map((item, index) => (
             <div key={index} className="scroll-section container flex flex-col items-center justify-center p-8 w-[100vw] text-center">
-              <h1 className="text-9xl font-bold mt-4 ">{item.title}</h1>
-    
+              <h1 className="md:text-9xl text-5xl font-bold mt-4 ">{item.title}</h1>
+
             </div>
           ))}
         </div>

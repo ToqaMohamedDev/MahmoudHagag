@@ -9,6 +9,7 @@ const ViewTrain = forwardRef(({}, ref) => {
   return (
     <div className='h-screen w-full' >
       <Canvas 
+      style={{ pointerEvents: 'none' }}
       gl={{ antialias: true }} dpr={[1, 1.5]}>
       <Suspense fallback={null}>
         <Center>
