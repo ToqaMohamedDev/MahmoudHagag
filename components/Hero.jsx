@@ -15,7 +15,7 @@ import ParticlesContainer from './ParticelsContainers';
 
 export default function Hero() {
   return (
-<section className="py-12 xl:py-24  xl:pt-28 h-[100vh]">
+<section className="py-12 xl:py-24  xl:pt-28">
 <ParticlesContainer />
 <div className='container mx-auto'>
       
