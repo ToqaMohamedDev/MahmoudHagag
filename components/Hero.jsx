@@ -12,7 +12,7 @@ export default function Hero() {
   return (
 <section className="py-12 xl:py-24  xl:pt-28">
 <ParticlesContainer />
-<div className='container mx-auto'>
+<div className='container mx-auto overflow-x-hidden'>
       
         <div className='flex flex-col  xl:flex-row-reverse justify-between gap-x-8'>
           {/*1*/}
