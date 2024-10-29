@@ -15,7 +15,7 @@ export default function GsapAnimation() {
       <div className="container">
 
         {/* 1 - القسم الأول بدون تأثير الـ sticky */}
-        <div className="first-section absolute h-screen top-0 right-5 flex items-center">
+        <div className="first-section absolute h-screen top-0 px-5 flex items-center">
           <div className="max-w-[400px] gap-y-5">
             <h1 className="maintext text-primary text-right mb-5">تطبيقنا</h1>
             <p className="subtitle text-right">
