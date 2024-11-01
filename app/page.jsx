@@ -10,7 +10,7 @@ import { useEffect } from "react";
 export default function Home() {
   const blobityInstanse=useBlobity(initialBlobityOptions);
   useEffect(()=>{
-  //@ts-ignore 
+ 
   window.blobity=blobityInstanse.current;
   },[blobityInstanse]);
   return (
