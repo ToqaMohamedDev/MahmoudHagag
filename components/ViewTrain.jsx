@@ -20,6 +20,9 @@ const ViewTrain = forwardRef(({}, ref) => {
         <Center>
            <Float
            speed={5}
+           rotationIntensity={0}
+           floatIntensity={3}
+           floatSpeed={3}
            >
            <OpjectModel/>
            </Float>
