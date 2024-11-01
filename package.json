@@ -22,7 +22,6 @@
     "@types/three": "^0.169.0",
     "aos": "^2.3.4",
     "autoprefixer": "^10.4.20",
-    "blobity": "^0.2.3",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.11.9",
