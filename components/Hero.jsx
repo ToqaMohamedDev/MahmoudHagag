@@ -1,7 +1,6 @@
 import React from 'react'
 
 import { Download, Send } from "lucide-react";
-
 import Social from "./socials";
 import Link from 'next/link';
 import { Button } from './ui/button';
