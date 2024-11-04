@@ -8,7 +8,6 @@ import { Youtube } from "@/components/Youtube";
 export default function Home() {
   return (
     <>
-      <PreLoader />
       <div>
         <Hero />
         <GsapAnimation />
